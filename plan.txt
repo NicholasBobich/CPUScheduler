@@ -1,0 +1,7 @@
+1. Read file into process array
+2. Data from process array into the ready queue
+3a. Processes loaded into cpu one at a time for time quantum
+3b. If their cpu time reaches 0, move to I/O
+3c. If their cpu time has not run out, place back into the ready queue
+4. A process will stay in the I/O until its I/O time reaches 0
+5. Process terminates, print statistics after all processes terminate
